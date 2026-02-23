@@ -1,11 +1,92 @@
+# Personal Portfolio Website
 
-  # Modern Split-Screen Portfolio
+A modern, responsive personal portfolio website built using React (Vite) and Tailwind CSS.  
+This project showcases my work, technical skills, and projects in a clean, structured, and professional interface designed for recruiters, collaborators, and industry professionals.
 
-  This is a code bundle for Modern Split-Screen Portfolio. The original project is available at https://www.figma.com/design/TY2edKzxuuokdTH9WrMIpI/Modern-Split-Screen-Portfolio.
+The website focuses on strong typography, balanced spacing, and a minimal dark theme to create a confident and distraction-free user experience. It is fully responsive and optimized for both desktop and mobile devices.
 
-  ## Running the code
+---
 
-  Run `npm i` to install the dependencies.
+## Tech Stack
 
-  Run `npm run dev` to start the development server.
-  
+- React (Vite)
+- Tailwind CSS
+- Modern JavaScript (ES6+)
+- Responsive Flexbox Layout
+
+---
+
+## Features
+
+- Professional and minimal user interface
+- Fully responsive across desktop and mobile
+- Structured content sections (About, Projects, Skills, Contact)
+- Clean component-based architecture
+- Modular and scalable folder structure
+- Production-ready setup
+
+---
+
+## Project Structure
+
+src/
+ ├── assets/        # Images and static assets  
+ ├── components/    # Reusable UI components  
+ ├── App.jsx  
+ └── main.jsx  
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+    git clone https://github.com/your-username/your-repository-name.git
+    cd your-repository-name
+
+Install dependencies:
+
+    npm install
+
+Run development server:
+
+    npm run dev
+
+Open your browser at:
+
+    http://localhost:5173
+
+---
+
+## Customization
+
+To personalize the portfolio:
+
+- Replace images inside src/assets  
+- Update content inside components  
+- Modify theme colors in Tailwind configuration  
+- Add or update projects and skills  
+
+---
+
+## Deployment
+
+This project can be deployed using platforms such as:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+## Author
+
+Mayank Jr  
+IT Student | AI Enthusiast | Builder  
+
+LinkedIn: (Add your link)  
+GitHub: (Add your link)  
+
+---
+
+This portfolio represents my approach to building clean, scalable, and user-focused web applications.
