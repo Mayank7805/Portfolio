@@ -117,7 +117,7 @@ export function Skills() {
       <div className="space-y-10 max-w-3xl">
         {skillCategories.map((category) => (
           <div key={category.category}>
-            <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-cyan-400 mb-4">
+            <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-white mb-4">
               {category.category}
             </h3>
             <div className="flex flex-wrap gap-3 sm:gap-4">
