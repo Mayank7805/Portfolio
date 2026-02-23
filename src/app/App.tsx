@@ -3,14 +3,17 @@ import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
+import { SkillsBackground } from "./components/SkillsBackground";
 
 const portraitImg = "/mypic.jpg";
 
 export default function App() {
   return (
-    <div className="flex flex-col lg:flex-row min-h-screen bg-[#0a0a0a]">
+    <div className="relative flex flex-col lg:flex-row min-h-screen bg-[#0a0a0a]">
+      {/* Three.js animated background across entire page */}
+      <SkillsBackground />
       {/* Mobile: Portrait image banner at top */}
-      <div className="relative w-full h-[60vh] lg:hidden overflow-hidden">
+      <div className="relative z-10 w-full h-[60vh] lg:hidden overflow-hidden">
         <img
           src={portraitImg}
           alt="Professional Portrait"
@@ -21,7 +24,7 @@ export default function App() {
       </div>
 
       {/* Left Half — Content */}
-      <div className="w-full lg:w-1/2">
+      <div className="relative z-10 w-full lg:w-1/2">
         <Hero />
         <About />
         <Projects />
@@ -30,7 +33,7 @@ export default function App() {
       </div>
 
       {/* Right Half — Sticky Image (Desktop only) */}
-      <div className="hidden lg:block lg:w-1/2">
+      <div className="relative z-10 hidden lg:block lg:w-1/2">
         <div className="sticky top-0 h-screen overflow-hidden">
           <img
             src={portraitImg}
