@@ -84,8 +84,8 @@ This project can be deployed using platforms such as:
 Mayank Jr  
 IT Student | AI Enthusiast | Builder  
 
-LinkedIn: (Add your link)  
-GitHub: (Add your link)  
+LinkedIn: https://www.linkedin.com/in/mayank-jangra-871880292/ 
+GitHub: https://github.com/Mayank7805  
 
 ---
 
