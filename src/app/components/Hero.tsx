@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section className="min-h-[80vh] lg:min-h-screen flex flex-col justify-center px-8 sm:px-12 lg:px-20 py-16 lg:py-0">
+    <section className="hidden lg:flex min-h-screen flex-col justify-center px-8 sm:px-12 lg:px-20 py-16 lg:py-0">
       <div className="mb-6">
         <span className="inline-block text-sm font-medium tracking-[0.2em] uppercase text-cyan-400 mb-6">
           Portfolio
